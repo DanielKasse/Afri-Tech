@@ -58,8 +58,7 @@ header .navbar a:hover{
   background: var(--green);
   
 }
-header .icons i,
-header .icons a{
+header .icons i{
   cursor: pointer;
   margin-left: .5rem;
   height: 4.5rem;
@@ -71,8 +70,7 @@ header .icons a{
   border-radius: 50%;
   background: #eee;
 }
-header .icons i:hover,
-header .icons a:hover{
+header .icons i:hover{
   color: #fff;
   background: var(--green);
   transform: rotate(360deg);
@@ -81,6 +79,11 @@ header .icons #menu-bars{
   display: none;
 }
 
+header .icons i.active{
+  color: #fff;
+  background: var(--green);
+  
+}
 
 
 @media (max-width: 991px){
