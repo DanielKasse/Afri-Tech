@@ -31,7 +31,7 @@ section:nth-child(even){
   margin-top: 1rem;
   display: inline-block;
   font-size: 1.7rem;
-  color: #fff;
+  color: #030000;
   background: val(--black);
   border-radius: .5rem;
   cursor: pointer;
@@ -190,7 +190,9 @@ color: #eee;
   line-height: 1.5;
 }
 
-
+.swiper-pagination-bullet-active{
+  background: var(--green);
+}
 
 
 
@@ -213,6 +215,10 @@ header .icons i.active{
   header {
     padding: 1rem 2rem;
   }
+  section {
+    padding:2rem;
+  }
+
 
 }
 @media (max-width: 768px){
@@ -242,6 +248,9 @@ header .icons i.active{
   search-form #search-box{
     width: 90%;
     margin: 0 1rem;
+  }
+  .home .home-slider .slide .content h3{
+    font-size: 5rem;
   }
 }
 @media (max-width: 991px){
