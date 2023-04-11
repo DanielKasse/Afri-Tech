@@ -101,6 +101,9 @@ header .icons i{
 
 
 
+
+
+/* trying the dropdown toggles */
 .dropdown-toggle{
   position: relative;
   float: right;
@@ -130,8 +133,7 @@ header .icons i{
   background-color: transparent;
 
 } 
-
-
+/* trying ends here */
  
  
 
