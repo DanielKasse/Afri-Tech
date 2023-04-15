@@ -9,7 +9,7 @@ window.onscroll = () =>{
   menu.classList.remove('fa-times');
   navbar.classList.remove('active');
 }
-document.querySelector('#seach-icon').onclick = ()=>{
+document.querySelector('#search-icon').onclick = ()=>{
   document.querySelector('#search-form').classList.toggle('active');
 }
 
@@ -27,5 +27,5 @@ var swiper = new Swiper(".home-slider", {
     el: ".swiper-pagination",
     clickable: true,
   },
-  loop:true;
+  loop:true
 });
