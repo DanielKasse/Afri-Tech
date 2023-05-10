@@ -4,6 +4,10 @@
   --black: #192a56;
   --light-color: #666;
   --box-shadow: 0.5rem 1.5rem rgba(0,0,0,.1);
+  --bodyBack: #ffeaed;
+  --textColor: #1b2741;
+  --starColor: #f67034;
+  --sectionBack: #f7f6f9;
 }
 *{
   font-family: 'Nunito', sans-serif;
@@ -109,7 +113,7 @@ header .icons i{
 #product1 {
   text-align: center;
 }
-#product1.pro {
+#product1.pro-container.pro {
   width: 23%;
   min-width: 250%;
   padding: 10px 12px;
@@ -510,4 +514,106 @@ header .icons i.active{
     width: 100%;
   }
 
+}
+button a {
+  color: white;
+}
+.pro-grand {
+  display: grid;
+  place-content: center;
+  background-color: white;
+}
+
+.pro-container{
+  width: 80vw;
+  height:80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.pro-header{
+  width: 100%;
+  text-align: center;
+}
+.pro-header h1{
+  font-size: 4em;
+  text-transform: uppercase;
+  color: var(--textColor);
+}
+.pro-products{
+  width: 100%;
+  align-self: center;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+.pro-product{
+  position: relative;
+  background-color: var(--sectionBack);
+  width: 350px;
+  height: 100%;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, .3);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px 20px 40px;
+  border-radius: 10px;
+  transition: .3s;
+}
+.pro-product:hover{
+  transform: translateY(-15px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+}
+.pro-image{
+  width:100%;
+  height: 60%;
+  display: grid;
+  place-content: center;
+  padding: 1rem;
+}
+.pro-image img{
+  width: 240px;
+}
+.pro-namePrice{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.pro-namePrice h3{
+  font-size: 2em;
+  text-transform: capitalize;
+  color: var(--textColor);
+}
+.pro-namePrice span{
+  font-size: 1.5em;
+  color: var(--starColor);
+}
+.pro-product p{
+  font-size: 18px;
+  line-height: 25px;
+}
+.pro-stars svg{
+  font-size: 1.3em;
+  color: var(--starColor);
+}
+.pro-bay{
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+.pro-bay button{
+  padding: 10px 20px;
+  border-radius: 7px;
+  border: none;
+  background-color: var(--textColor);
+  color: var(--sectionBack);
+  font-size: 18px;
+  text-transform: capitalize;
+  cursor: pointer;
+  transition: .5s;
+}
+.pro-bay button:hover{
+  transform: scale(1.1);
 }
