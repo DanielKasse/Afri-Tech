@@ -235,7 +235,9 @@ header .icon-photo-container .icon-cart{ cursor: pointer;}
     font-size: 45px;
     margin: 20px 0;
 }
-
+.check a{
+    color: white; text-decoration: none;
+}
 .product-info .product-materials{
     margin: 20px 0;
     line-height: 1.6;
