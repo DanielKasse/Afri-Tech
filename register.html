@@ -31,7 +31,7 @@
 
 								<div class="mb-3">
 									<label class="mb-2 text-muted" for="email">E-Mail Address</label>
-									<input id="email" type="email" class="form-control" name="email" value="" required>
+									<input id="email" type="email" class="form-control" pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$" name="email" value="" required>
 									<div class="invalid-feedback">
 										Email is invalid
 									</div>
@@ -39,9 +39,9 @@
 								
 								<div class="mb-3">
 									<label class="mb-2 text-muted" for="number">Phone Number</label>
-									<input id="number" type="number" class="form-control" name="number" value="" required>
+									<input id="number" type="tel" pattern="^(\+251|0)(9|11)[0-9]{8}$" class="form-control" name="number" value="" required>
 									<div class="invalid-feedback">
-										Phone Number is invalid
+										Phone Number is invalid. <br> Please use either the +251 or 09 format	
 									</div>
 								</div>
 
