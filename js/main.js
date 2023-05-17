@@ -122,7 +122,17 @@ addBtn.onclick = function(){
         price.textContent = `$${many.textContent * 125}.00`
         showElement(checkoutBtn)
         counterValue.textContent = 0;
-        setLocal('items' , notification.textContent)
+        let items = [
+            {
+                supplierName: 'LAPTOP COMPANY',
+                itemName: 'HP dual core laptop',
+                itemDescription: 'These high-profile laptop is your perfect casual use companion. Featuring a durable external mouse and keyboard, It’ll withstand every workload the user can offer.',
+                itemPrice: 125.00,
+                itemCount: localStorage.count
+            }
+        ]
+        let itemObj = JSON.stringify(items);
+        setLocal('items' , itemObj);
     }
 }
 // delete method
