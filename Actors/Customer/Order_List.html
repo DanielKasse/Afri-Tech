@@ -12,48 +12,117 @@
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="stylesheet" href="../../style.css">
-  <link rel="stylesheet" href="../../css/auth-style.css">
+  <link rel="stylesheet" href="../../css/all.css">
+
 </head>
 <body>
-<header>
-  <a href="index.html" class="logo"> <i class="fas-fa-untensils"></i>Afri-Tech </a>
-  <nav class="navbar">
-    <a href="../../index.html">Home</a>
-
-    <a href="Order_List.html" class="active">Order</a>
-    <a href="./About.html">About</a>
-  </nav>
-  <div class="icons">
-    <i class="fas fa-bars" id="menu-bars"></i>
-    <i class="fas fa-search" id="search-icon"></i>
-    <i  href="#" class="fas fa-heart"></i>
-    <a href="./HTML Pages/Client/Cart.html">
-      <i class="fas fa-shopping-cart"></i>
-
-      
-      <a class="dropdown-toggle">
-      <i class="fas fa-users"></i>
-        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="profile.html">Profile</a>
-                              <a class="dropdown-item" href="contact-us.html">Contact Us</a>
-                              <a class="dropdown-item" href="#">Settings</a>
-                              
-                              <a class="dropdown-item" href="#">Log out</a>
-                            </div>
-      
-      </a>
-    
+  <div class="container">
+  <header>
+    <div class="log-list-container">
+      <img src="images/icon-menu.svg" alt="menu" class="menu">
+      <p id="afri">Afri-Tech</p>
+      <div class="list">
+        <img src="images/icon-close.svg" alt="close-menu" class="close">
+        <a href="../../index.html">Home</a>
         
-    </a>
+        <a href="#">Order</a>
+        <a href="About.html">About</a>
+      </div>
 
+    </div>
+    <i  id="menu-bars"></i>
+    <i  id="search-icon"></i>
+    <div class="icon-photo-container">
+      <div class="notification"></div>
+      <img src="../../images/icon-cart.svg" alt="cart" class="icon-cart">
+      
+
+    </div>
+   
+    
+  </header>
+
+
+
+<form action=" " id="search-form">
+  <input type="search" placeholder="search here..." name="" id="search-box">
+  <label for="search-box" class="fas fa-search"></label>
+  <i class="fas fa-times" id="close"></i>
+</form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- footer section starts here -->
+<!-- <section>
+<footer class="foot_section">  
+  <div  class="col">
+    <img src="" alt="">
+    <h4>Contact</h4>
+    <p><strong>address: </strong>362 Bulgarian Road, street 32, Bahir Dar</p>
+    <p><strong>phone: </strong>+251923467881 / +251968985648</p>
+    <p><strong>Hours: </strong>10:00 - 12:00, Mon - Sun</p>
+    <div class="follow">
+      <h4>Follow us</h4>
+      <div class="icon">
+        <i class="fal fa-facebook"></i>
+        <i class="fal fa-twitter"></i>
+        <i class="fal-fa-instagram"></i>
+
+      </div>
+
+    </div>
   </div>
-</header>
+<div class="col">
+  <h4>about</h4>
+  <a href="#">About</a>
+  <a href="#">Delivery Information</a>
+  <a href="#">Privacy Policy</a>
+  <a href="#">Terms and Conditions</a>
+  <a href="#">Contact Us</a>
 
-<p>hey!</p>
+</div>
+<div class="col">
+  <h4>My account</h4>
+  <a href="#">Sign In</a>
+  <a href="#">View Carts</a>
+  <a href="#">My Wishlist</a>
+  <a href="#">Track My Order</a>
+  <a href="#">Help</a>
+
+</div>
 
 
+
+
+</footer>
+</section> -->
+<!-- footer section ends here -->
 
 <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-<script defer src="script.js"></script>  
+<script defer src="../../script.js"></script> 
+</div> 
 </body>
 </html>

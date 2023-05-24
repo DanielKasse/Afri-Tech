@@ -1,9 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,700&display=swap');
+* , *::before , *::after{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
 :root{
   --green: #27ae60;
   --black: #192a56;
   --light-color: #666;
-  --box-shadow: 0.5rem 1.5rem rgba(0,0,0,.1);
+  --box-shadow: 0.5rem 1.5rem rgba(0,0,0,.01);
   --bodyBack: #ffeaed;
   --textColor: #1b2741;
   --starColor: #f67034;
@@ -12,12 +18,17 @@
 *{
   font-family: 'Nunito', sans-serif;
   margin: 0; padding: 0;
-  box-sizing: 0;
+  box-sizing: border-box;
   text-decoration: none;
   outline: none;
   border: none;
   text-transform: capitalize;
   transition: all .2s linear;
+}
+.container{
+    width: 100%;
+    padding: 0 125px;
+    position: relative;
 }
 html{
   font-size: 62.5%;
@@ -51,56 +62,108 @@ section:nth-child(even){
 }
 
 
+
+
 header{
-  position: fixed;
-  top: 0; left: 0; right: 0;
-  background: #fff;
-  padding: 1rem 7%;
-  display: flex;
-  
-  align-items: center;
-  justify-content: space-between;
-  z-index: 1000;
-  box-shadow: var(--box-shadow);
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #f1f0f4;
+    font-size: large;
+    
+}
+header .icon-photo-container ,
+header .log-list-container{ display: flex; align-items: center;}
+header .log-list-container .menu{
+    
+    
+    display: none;
+    margin-right: 40px;
+    cursor: pointer;
+}
+header .log-list-container .menu #afri{
+    position: relative;
+    left: 1.5in;
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
 
+header .log-list-container .list{ margin-left: 40px;}
+header .log-list-container .list a {
+    display: inline-flex;
+    text-decoration:none;
+    color: #68707d;
+    margin-left: 25px;
+    padding: 30px 0;
+    transition: color  .30s;
 }
-header .logo{
-  color: var(--black);
-  font-size: 2.5rem;
-  font-weight: bolder;
+header .log-list-container .list .close{
+    display: none;
+    width: fit-content;
+    margin-bottom: 50px;
+    cursor: pointer;
 }
-header .logo i{
-  color: val(--green);
+header .log-list-container .list a:hover{
+    padding: 28px 0;
+    border-bottom: 2px solid #ff7d1a;
+    color: hsl(220, 13%, 13%);
 }
-header .navbar a{
-  font-size: 1.7rem;
-  border-radius: .5rem;
-  padding: .5rem 1.5rem;
-  color: var(--light-color);
-  
- 
+header .icon-photo-container{ position: relative;
+}
+.icon-photo-container .notification{
+    display: none;
+    width: 20px;
+    height: 15px;
+    font-size: 13px;
+    justify-content: center;
+    line-height: 15px;
+    background-color: #ff7d1a;
+    color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    left: 10px;
+    margin-top: -17px;
+    cursor: pointer;
+}
+header .icon-photo-container .avatar{
+    width: 40px;
+    margin-left: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    border-radius: 50%;
+}
 
-
+header .icon-photo-container .avatar:hover{ border: 3px solid #ff7d1a; }
+header .icon-photo-container .icon-cart{ cursor: pointer;}
+@media(max-width:1024px){
+    header{ border: none;}
+    header .log-list-container .menu{ display: inline-block;}
+    header .log-list-container .list{
+        width: 200px;
+        background-color: #fff;
+        position: absolute;
+        left: 0;
+        top: 0;
+        display: none;
+        flex-direction: column;
+        padding: 15px;
+        z-index: 2;
+        margin: 0;
+        height: 100%;
+    }
+    header .log-list-container .list a {
+        padding: 0;
+        margin: 0 0 15px 0;
+        font-weight: 700;
+    }
+    header .log-list-container .list .close{ display: inline-block;}
+    header .log-list-container .list a:hover{ padding: 0; border: none; }
 }
-header .navbar a.active,
-header .navbar a:hover{
-  color: #fff;
-  background: var(--green);
-  
-}
-header .icons i{
-  cursor: pointer;
-  margin-left: .5rem;
-  height: 4.5rem;
-  line-height: 4.5rem;
-  width: 4.5rem;
-  text-align: center;
-  font-size: 1.7rem;
-  color: var(--black);
-  border-radius: 50%;
-  background: #eee;
-  display: inline-block;
-
+@media(max-width:526px){
+    header{ padding:  15px 20px;}
+    header .icon-photo-container .avatar{
+        width: 25px;
+        margin-left: 20px;
+    }
 }
 
 /* productdetail starts here */
@@ -262,9 +325,9 @@ header .icons i:hover{
   background: var(--green);
   transform: rotate(360deg);
 }
-header .icons #menu-bars{
+/* header .icons #menu-bars{
   display: none;
-}
+} */
 #search-form{
   position: fixed;
   top: -110%; left: 0;
@@ -314,28 +377,40 @@ color: #eee;
 
 
 }
+
+.home .home-slider .wrapper {
+    padding: 100px 100px 100px 100px;
+}
+
+
 .home .home-slider .slide{
   display: flex;
   align-items: center;
   gap: 2rem;
-  padding-top: 9rem;
+  padding:  9rem 200px 200px 100px;
+  
+  
 }
 
 .home .home-slider .slide .content{
   flex: 1 1 45rem;
+ 
 }
 
 
 .home .home-slider .slide .content .image{
   flex: 1 1 45rem;
+  
 }
 
 .home .home-slider .slide .content .image img{
   width: 100%;
+  
 } 
 .home .home-slider .slide .content span{
   color: var(--green);
   font-size: 2.5rem;
+  
 
 }
 .home .home-slider .slide .content h3{
