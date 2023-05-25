@@ -12,43 +12,36 @@
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="all.min.css">
 
 </head>
 <body>
-<header>
-  <a href="index.html" class="logo"> <i class="fas-fa-untensils"></i>Afri-Tech </a>
-  <nav class="navbar">
-    <a class="active" href="index.html">Home</a>
-
-    <a href="./Actors/Customer/Order_List.html">Order</a>
-    <a href="./Actors/Customer/About.html">About</a>
-  </nav>
-  <div class="icons">
-    <i class="fas fa-bars" id="menu-bars"></i>
-    <i class="fas fa-search" id="search-icon"></i>
-    <i  href="#" class="fas fa-heart"></i>
-    <a href="./HTML Pages/Client/Cart.html">
-      <i class="fas fa-shopping-cart"></i>
-
-      
-      <a class="dropdown-toggle">
-      <i class="fas fa-users"></i>
-        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="profile.html">Profile</a>
-                              <a class="dropdown-item" href="contact-us.html">Contact Us</a>
-                              <a class="dropdown-item" href="#">Settings</a>
-                              
-                              <a class="dropdown-item" href="#">Log out</a>
-                            </div>
-      
-      </a>
-    
+  <div class="container">
+  <header>
+    <div class="log-list-container">
+      <img src="images/icon-menu.svg" alt="menu" class="menu">
+      <p id="afri">Afri-Tech</p>
+      <div class="list">
+        <img src="images/icon-close.svg" alt="close-menu" class="close">
+        <a href="#">Home</a>
         
-    </a>
+        <a href="Actors/Customer/Order_List.html">Order</a>
+        <a href="/Actors/Customer/About.html">About</a>
+      </div>
 
-  </div>
-</header>
+    </div>
+    <i  id="menu-bars"></i>
+    <i  id="search-icon"></i>
+    <div class="icon-photo-container">
+      <div class="notification"></div>
+      <img src="images/icon-cart.svg" alt="cart" class="icon-cart">
+      
+
+    </div>
+   
+    
+  </header>
+
 
 
 <form action=" " id="search-form">
@@ -107,127 +100,6 @@
     <div class="swiper-pagination"></div>
   </div>
 </section>
-<!-- <section id="product1" class="section-p1">
-<h2>Featured Products</h2>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-<div class="pro-container">
-  <div class="pro">
-    <img src="images/laptop.jpg" alt="" height="50%" >
-    <div class="des">
-      <span>Lenovo</span>
-      <h5>some desc</h5>
-      <div class="star">
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-      </div>
-      <h4>$78</h4>
-    </div>
-    <a href="#"><i class="fas fa-shopping-cart"></i></a>
-  </div>
-  <div class="pro">
-    <img src="images/laptop.jpg" alt="" height="50%" >
-    <div class="des">
-      <span>Lenovo</span>
-      <h5>some desc</h5>
-      <div class="star">
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-      </div>
-      <h4>$78</h4>
-    </div>
-    <a href="#"><i class="fas fa-shopping-cart"></i></a>
-  </div>
-  <div class="pro">
-    <img src="images/laptop.jpg" alt="" height="50%" >
-    <div class="des">
-      <span>Lenovo</span>
-      <h5>some desc</h5>
-      <div class="star">
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-      </div>
-      <h4>$78</h4>
-    </div>
-    <a href="#"><i class="fas fa-shopping-cart"></i></a>
-  </div>
-  <div class="pro">
-    <img src="images/laptop.jpg" alt="" height="50%" >
-    <div class="des">
-      <span>Lenovo</span>
-      <h5>some desc</h5>
-      <div class="star">
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-      </div>
-      <h4>$78</h4>
-    </div>
-    <a href="#"><i class="fas fa-shopping-cart"></i></a>
-  </div>
-  <div class="pro">
-    <img src="images/laptop.jpg" alt="" height="50%" >
-    <div class="des">
-      <span>Lenovo</span>
-      <h5>some desc</h5>
-      <div class="star">
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-      </div>
-      <h4>$78</h4>
-    </div>
-    <a href="#"><i class="fas fa-shopping-cart"></i></a>
-  </div>
-  <div class="pro">
-    <img src="images/laptop.jpg" alt="" height="50%" >
-    <div class="des">
-      <span>Lenovo</span>
-      <h5>some desc</h5>
-      <div class="star">
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-      </div>
-      <h4>$78</h4>
-    </div>
-    <a href="#"><i class="fas fa-shopping-cart"></i></a>
-  </div>
-  <div class="pro">
-    <img src="images/laptop.jpg" alt="" height="50%" >
-    <div class="des">
-      <span>Lenovo</span>
-      <h5>some desc</h5>
-      <div class="star">
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-      </div>
-      <h4>$78</h4>
-    </div>
-    <a href="#"><i class="fas fa-shopping-cart"></i></a>
-  </div>
-</div>
-
-
-
-</section> -->
 
 
 <section style="background-color: white;">
@@ -377,6 +249,7 @@
 <!-- footer section ends here -->
 
 <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-<script defer src="script.js"></script>  
+<script defer src="script.js"></script> 
+</div> 
 </body>
 </html>
