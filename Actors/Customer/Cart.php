@@ -9,12 +9,12 @@
 </head>
 <body>
 <header>
-  <a href="../../index.html" class="logo"> <i class="fas-fa-untensils"></i>Afri-Tech </a>
+  <a href="../../index.php" class="logo"> <i class="fas-fa-untensils"></i>Afri-Tech </a>
   <nav class="navbar">
-    <a href="../../index.html">Home</a>
-    <a href="Food_Menu.html">Menu</a>
-    <a href="Order_List.html">Order</a>
-    <a href="About.html">About</a>
+    <a href="../../index.php">Home</a>
+    <a href="Food_Menu.php">Menu</a>
+    <a href="Order_List.php">Order</a>
+    <a href="About.php">About</a>
   </nav>
   <div class="icons">
     <i class="fas fa-bars" id="menu-bars"></i>

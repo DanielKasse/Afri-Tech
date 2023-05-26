@@ -29,9 +29,9 @@
     <p id="afri">Afri-Tech</p>
     <div class="list">
       <img src="images/icon-close.svg" alt="close-menu" class="close">
-      <a href="../../index.html">Home</a>
+      <a href="../../index.php">Home</a>
       
-      <a href="Order_List.html">Order</a>
+      <a href="Order_List.php">Order</a>
       <a href="#">About</a>
     </div>
 

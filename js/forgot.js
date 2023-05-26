@@ -12,9 +12,9 @@
 				if (!form.checkValidity()) {
 					event.stopPropagation()
 				}
-				// redirect to index.html if the form is validated
+				// redirect to reset.php if the form is validated
 				else {
-					window.location.href = "reset.html";
+					window.location.href = "reset.php";
 				}
 				form.classList.add('was-validated')
 			}, false)

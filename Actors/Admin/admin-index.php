@@ -57,7 +57,7 @@
             </a>
           </li>
           <li class="sidebar-list-item">
-            <a href="admin-prod.html" target="_blank">
+            <a href="admin-prod.php" target="_blank">
                 Products <!-- here the admin can see what prooducts are available on the website in a table format with all the products list and thier specific information like the quantities the owners blah blah -->
             </a>
           </li>

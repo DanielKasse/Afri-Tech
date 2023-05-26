@@ -13,7 +13,7 @@
 				if (!form.checkValidity()) {
 					event.stopPropagation()
 				}
-				// redirect to index.html if the form is validated
+				// redirect to login.php if the form is validated
 				else {
 					var name = document.getElementById('name').value
 					var email = document.getElementById('email').value
@@ -28,7 +28,7 @@
 					// console.log(user)
 					let userObj = JSON.stringify(user)
 					localStorage.setItem("user", userObj)
-					window.location.href = "login.html";
+					window.location.href = "login.php";
 				}
 				form.classList.add('was-validated')
 			}, false)
