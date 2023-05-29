@@ -23,10 +23,10 @@
       <p id="afri">Afri-Tech</p>
       <div class="list">
         <img src="images/icon-close.svg" alt="close-menu" class="close">
-        <a href="../../index.html">Home</a>
+        <a href="../../index.php">Home</a>
         
         <a href="#">Order</a>
-        <a href="About.html">About</a>
+        <a href="About.php">About</a>
       </div>
 
     </div>

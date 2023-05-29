@@ -47,7 +47,7 @@
         </div>
         <img src="images/icon-delete.svg" alt="icon-delete" class="delete">
       </div>
-      <div class="btn main check"><a href="./Actors/Customer/Checkout.html">Checkout</a></div>
+      <div class="btn main check"><a href="./Actors/Customer/Checkout.php">Checkout</a></div>
     </div>
     <div class="product-images">
       <div class="large">

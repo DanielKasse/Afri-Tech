@@ -17,26 +17,26 @@
 </head>
 <body>
 <header>
-  <a href="index.html" class="logo"> <i class="fas-fa-untensils"></i>Afri-Tech </a>
+  <a href="index.php" class="logo"> <i class="fas-fa-untensils"></i>Afri-Tech </a>
   <nav class="navbar">
-    <a class="active" href="index.html">Home</a>
+    <a class="active" href="index.php">Home</a>
 
-    <a href="./Actors/Customer/Order_List.html">Order</a>
-    <a href="./Actors/Customer/About.html">About</a>
+    <a href="./Actors/Customer/Order_List.php">Order</a>
+    <a href="./Actors/Customer/About.php">About</a>
   </nav>
   <div class="icons">
     <i class="fas fa-bars" id="menu-bars"></i>
     <i class="fas fa-search" id="search-icon"></i>
     <i  href="#" class="fas fa-heart"></i>
-    <a href="./HTML Pages/Client/Cart.html">
+    <a href="./HTML Pages/Client/Cart.php">
       <i class="fas fa-shopping-cart"></i>
 
       
       <a class="dropdown-toggle">
       <i class="fas fa-users"></i>
         <div class="dropdown-menu">
-                            <a class="dropdown-item" href="profile.html">Profile</a>
-                              <a class="dropdown-item" href="contact-us.html">Contact Us</a>
+                            <a class="dropdown-item" href="profile.php">Profile</a>
+                              <a class="dropdown-item" href="contact-us.php">Contact Us</a>
                               <a class="dropdown-item" href="#">Settings</a>
                               
                               <a class="dropdown-item" href="#">Log out</a>
@@ -93,10 +93,10 @@
           <h3>Latest HP dual core Laptop</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 
-          <a href="product-detail.html" class="btn">add to cart</a>
+          <a href="product-detail.php" class="btn">add to cart</a>
 
           
-          <a href="Actors/Customer/Checkout.html" class="btn active">order now</a>
+          <a href="Actors/Customer/Checkout.php" class="btn active">order now</a>
         </div>
         <div class="image">
           <img src="images/home-img-3.jpg" width="400rem" height="400rem" alt="">
@@ -136,7 +136,7 @@
                   <i class="fa-regular fa-star"></i>
               </div>
               <div class="pro-bay">
-                  <button> <a href="Actors/Customer/Checkout.html">buy now </a></button>
+                  <button> <a href="Actors/Customer/Checkout.php">buy now </a></button>
               </div>
           </div>
   
@@ -157,7 +157,7 @@
                   <i class="fa-solid fa-star"></i>
               </div>
               <div class="pro-bay">
-                  <button> <a href="Actors/Customer/Checkout.html">buy now </a></button>
+                  <button> <a href="Actors/Customer/Checkout.php">buy now </a></button>
               </div>
           </div>
   
@@ -177,7 +177,7 @@
                   <i class="fa-solid fa-star"></i>
                   <i class="fa-regular fa-star"></i>
               </div><div class="pro-bay">
-                  <button> <a href="Actors/Customer/Checkout.html">buy now </a></button>
+                  <button> <a href="Actors/Customer/Checkout.php">buy now </a></button>
               </div>
           </div>
       </div>
