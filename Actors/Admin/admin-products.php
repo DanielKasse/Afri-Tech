@@ -51,40 +51,40 @@
         </div>
 
         <ul class="sidebar-list">
-          <li class="sidebar-list-item active">
-            <a href="#" target="_blank">
+          <li class="sidebar-list-item">
+            <a href="admin-index.html">
                Dashboard
             </a>
           </li>
-          <li class="sidebar-list-item">
-            <a href="admin-products.php">
+          <li class="sidebar-list-item active">
+            <a href="admin-products.html">
                 Products <!-- here the admin can see what prooducts are available on the website in a table format with all the products list and thier specific information like the quantities the owners blah blah -->
             </a>
           </li>
           <li class="sidebar-list-item">
-            <a href="#" target="_blank">
+            <a href="admin-orders.html">
               Orders 
               <!-- Here the admin can see the orders that are available at the time and whether those orders are shipped or if they are still pending mnamn again this page will also be in a table format  -->
             </a>
           </li>
           <li class="sidebar-list-item">
-            <a href="#" target="_blank">
+            <a href="admin-users.html">
                Users 
                <!-- sees how many subscribers does the website have and sees when new user is created ....... -->
             </a>
           </li>
           <li class="sidebar-list-item">
-            <a href="#" target="_blank">
+            <a href="admin-payment.html">
               Payment 
             </a>
           </li>
           <li class="sidebar-list-item">
-            <a href="#" target="_blank">
+            <a href="admin-reports.html">
              Reports
             </a>
           </li>
           <li class="sidebar-list-item">
-            <a href="#" target="_blank">
+            <a href="admin-settings.html">
                Settings
             </a>
           </li>
@@ -95,9 +95,9 @@
       <!-- Main -->
       <main class="main-container">
         <div class="main-title">
-          <h2>DASHBOARD</h2>
+          <h2>Products</h2>
         </div>
-
+<!-- 
         <div class="main-cards">
 
           <div class="card">
@@ -133,8 +133,8 @@
           </div>
 
         </div>
-
-        <div class="charts">
+ -->
+        <!-- <div class="charts">
 
           <div class="charts-card">
             <h2 class="chart-title">Top 5 Products</h2>
@@ -146,7 +146,7 @@
             <div id="area-chart"></div>
           </div>
 
-        </div>
+        </div> -->
       </main>
       <!-- End Main -->
 

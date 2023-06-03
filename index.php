@@ -24,7 +24,7 @@
       <div class="list">
         <img src="images/icon-close.svg" alt="close-menu" class="close">
         <a href="#">Home</a>
-        
+      
         <a href="Actors/Customer/Order_List.php">Order</a>
         <a href="/Actors/Customer/About.php">About</a>
       </div>
@@ -35,11 +35,7 @@
     <div class="icon-photo-container">
       <div class="notification"></div>
       <img src="images/icon-cart.svg" alt="cart" class="icon-cart">
-      
-
-    </div>
-   
-    
+    </div> 
   </header>
 
 
@@ -100,6 +96,31 @@
     <div class="swiper-pagination"></div>
   </div>
 </section>
+
+
+<!-- <section class="main-container">
+  <div class="thebox">
+    <div class="h2-header">
+      <a  href="#"><h2  class="head">
+        Brand Products ->
+
+      </h2></a>
+
+    </div>
+
+    <div class="circled-features">
+      <a href="#">
+      <img src="images/hp.jpg" alt="hp">
+      <span> HP LAPTOP</span>
+      </a>
+      
+
+    </div>
+
+  </div>
+
+</section> -->
+
 
 
 <section style="background-color: white;">

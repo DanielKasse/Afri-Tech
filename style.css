@@ -440,7 +440,19 @@ color: #eee;
   
 }
 
+/* brand products starts here */
+.main-container .thebox .h2-header .head {
+  color: black;
+}
+.main-container .thebox .circled-features img{
+  height: 100px;
+  width: 100px;
+  border-radius: 500rem;
+  box-sizing: border-box;
 
+}
+
+/* brand products ends here */
 
 
 
